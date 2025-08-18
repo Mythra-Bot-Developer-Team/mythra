@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mythra - Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/mythra-mor.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Ana Sayfa -->
+        <section id="home" class="page active">
+            <header>
+                <nav>
+                    <div class="logo">Mythra</div>
+                    <div class="nav-links">
+                        <a href="#home" class="active">Ana Sayfa</a>
+                        <a href="#commands">Komutlar</a>
+                        <a href="http://mythra.rf.gd/discord" target="_blank" class="discord-btn">Discord</a>
+                    </div>
+                </nav>
+            </header>
+            
+            <main>
+                <div class="hero">
+                    <div class="hero-text">
+                        <h1>Mythra,</h1>
+                        <p>Botumuz ile sunucunuzun yönetimi kolaylaşsın. Moderasyon, eğlence ve daha fazlası tek bir botta!</p>
+                        <div class="cta-buttons">
+                            <a href="#commands" class="btn primary">Komutları Gör</a>
+                            <a href="http://mythra.rf.gd/invite" target="_blank" class="btn secondary">Sunucuna Ekle</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="img/mythra-mor.png" alt="Mythra-Logo">
+                    </div>
+
+                    <div class="discord-widget">
+            <iframe src="https://discord.com/widget?id=1401952756142575818&theme=dark" 
+                    width="350" height="500" 
+                    allowtransparency="true" 
+                    frameborder="0" 
+                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+            </iframe>
+        </div>
+
+
+                </div>
+            </main>
+        </section>
+
+        <!-- Komutlar Sayfası -->
+        <section id="commands" class="page">
+            <header>
+                <nav>
+                    <div class="logo">Mythra</div>
+                    <div class="nav-links">
+                        <a href="#home">Ana Sayfa</a>
+                        <a href="#commands" class="active">Komutlar</a>
+                        <a href="http://mythra.rf.gd/discord" target="_blank" class="discord-btn">Discord</a>
+                    </div>
+                </nav>
+            </header>
+            
+            <main>
+                <div class="commands-container">
+                    <h2><i class="fas fa-terminal"></i> Tüm Komutlar</h2>
+                    <div class="search-box">
+                        <input type="text" id="command-search" placeholder="Komut ara...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    
+                    <div class="commands-grid">
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
