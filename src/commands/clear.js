@@ -32,7 +32,6 @@ module.exports = {
             const toDelete = filtered.first(Math.min(amount, filtered.size));
             const deleted = await interaction.channel.bulkDelete(toDelete, true);
 
-            // Null olmayan field'ları filtrele
             const fields = [
                 { name: '<:mythra_checkno:1405892611520204821> Silinen Mesaj Sayısı', value: `${deleted.size} adet`, inline: false },
                 user && { name: '<:mythra_checkno:1405892611520204821> Filtre', value: `Sadece ${user.username}`, inline: false },
