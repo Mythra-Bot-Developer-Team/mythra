@@ -35,11 +35,11 @@ Moderasyon, eğlence ve daha fazlası tek bir botta!
 ### 👑 Yönetici Komutları
 - `/lock` – Kanalı kilitler  
 - `/slowmode` – Yavaş modu ayarlar  
-- `/logs` – Sunucu loglarını gösterir  
+- `/logs` – Sunucu loglarını ayarlar  
 - `/set-welcome` – Karşılama mesajını ayarlar  
-- `/autorole` – Otomatik rol verir  
-- `/tagall` – Tüm üyeleri etiketler  
-- `/automod` – Otomatik moderasyon ayarları  
+- `/autorole` – Otomatik rolü ayarlar  
+- `/tagall` – Üye isimlerinin başına tag ekler  
+- `/automod` – Otomatik moderasyon ayarlarını kurar  
 - `/ticket-setup` – Destek sistemi kurulum  
 
 ### 💎 Premium Komutları
